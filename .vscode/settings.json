@@ -1,0 +1,26 @@
+{
+  "prettier.useTabs": true,
+  "eslint.validate": [
+    "javascript"
+  ],
+  "[javascript]": {
+    // "editor.defaultFormatter": "vscode.typescript-language-features",
+    // "editor.defaultFormatter": "vscode.typescript-language-features"
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.rulers": [
+      80
+    ],
+  },
+  "editor.accessibilitySupport": "off",
+  "workbench.colorTheme": "Monokai",
+  "diffEditor.renderSideBySide": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "gitlens.views.worktrees.avatars": false,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+  },
+  "eslint.format.enable": true,
+  "liveServer.settings.port": 5501,
+}
