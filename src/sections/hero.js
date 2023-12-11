@@ -40,7 +40,8 @@ export const hero = sectionBlockComp.copy({
               max-width: 300px;
             }
           `,
-          text: 'I support designers and agencies with creative development',
+          // text: 'I support designers and agencies with creative development',
+          text: '',
         }),
         h2Comp.copy({
           className: 'custom_right',
