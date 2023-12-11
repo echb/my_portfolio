@@ -1,3 +1,7 @@
+import centroUrbano from './assets/centro_urbano.png'
+import linde from './assets/linde.png'
+import quadratin from './assets/quadratin.png'
+
 export const CONSTANTS = {
   POSITION: 'Front-End Developer',
   Fi_NAME: 'emmanuel',
@@ -49,17 +53,17 @@ export const dataProjects = [
   },
   {
     name: 'Centro urbano',
-    img: 'https://raw.githubusercontent.com/echb/portfolio/master/docs/assets/centro_urbano.png',
+    img: centroUrbano,
     web: 'https://centrourbano.com/',
   },
   {
     name: 'quadratin',
-    img: 'https://raw.githubusercontent.com/echb/portfolio/master/docs/assets/centro_urbano.png',
+    img: quadratin,
     web: 'https://www.quadratin.com.mx/',
   },
   {
     name: 'linde',
-    img: 'https://raw.githubusercontent.com/echb/portfolio/master/docs/assets/centro_urbano.png',
+    img: linde,
     web: 'https://www.linde.mx/',
   },
 ]
@@ -68,6 +72,22 @@ export const dataSideProjects = [
   {
     name: 'E - commerce',
     img: 'https://raw.githubusercontent.com/echb/portfolio/master/docs/assets/skolable.png',
+    isInProgress: true,
+  },
+  {
+    name: 'FB Automate',
+    img: 'https://raw.githubusercontent.com/echb/portfolio/master/docs/assets/skolable.png',
+    isInProgress: false,
+  },
+  {
+    name: 'Scraping Server Node',
+    img: 'https://raw.githubusercontent.com/echb/portfolio/master/docs/assets/skolable.png',
+    isInProgress: false,
+  },
+  {
+    name: 'Robot Post',
+    img: 'https://raw.githubusercontent.com/echb/portfolio/master/docs/assets/skolable.png',
+    isInProgress: false,
   },
 ]
 

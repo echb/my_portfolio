@@ -8,6 +8,7 @@ import {
   a,
   projectImgComp,
   progressGear,
+  gear,
 } from '../components/components'
 import { ce } from '../uiLib'
 
@@ -58,7 +59,14 @@ export const sideProjects = sectionBlockComp.copy({
           }),
           gridSpaceComp.copy({
             child: ce('div', {
-              child: [progressGear, projectImgComp(e.img, e.name)],
+              child: [
+                e.isInProgress
+                  ? progressGear.copy({
+                      child: gear.copy({ text: 'settings' }),
+                    })
+                  : '',
+                projectImgComp(e.img, e.name),
+              ],
             }),
           }),
         ],

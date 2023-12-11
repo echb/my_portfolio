@@ -131,6 +131,16 @@ export const h2TxtComp = h2Comp.copy({
 `,
 })
 
+export const gear = ce('span', {
+  text: 'settings',
+  className: ['a', 'material-symbols-outlined'],
+  style: /* css */ `
+    .a{
+      font-size: 30px;
+    }
+  `,
+})
+
 export const progressGear = ce('div', {
   className: 'box',
   style: /* css */ `
@@ -153,13 +163,4 @@ export const progressGear = ce('div', {
         }
       }
     `,
-  child: ce('span', {
-    text: 'settings',
-    className: ['a', 'material-symbols-outlined'],
-    style: /* css */ `
-      .a{
-        font-size: 30px;
-      }
-    `,
-  }),
 })
